@@ -1,0 +1,28 @@
+.part1{
+    display: flex;
+    justify-content: space-around;
+    background-color: wheat;
+    
+}
+
+.part1 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+}
+.part1 ul i{
+    margin-left: 20px;
+}
+.part1 input{
+padding-right: 400px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.part2 UL{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* background-color: whitesmoke; */
+}
