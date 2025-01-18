@@ -1,28 +1,345 @@
-.part1{
+* {
+    padding: 0px;
+    margin: 0px;
+  font-family: "Playfair Display", serif;
+}
+.part1 {
+    position: sticky;
+    top: 0px;
+}
+
+.part1 {
     display: flex;
     justify-content: space-around;
     background-color: wheat;
-    
+
 }
 
-.part1 ul{
+.part1 ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
     list-style: none;
+    padding-right: 80px;
 }
-.part1 ul i{
+
+.part1 ul i {
     margin-left: 20px;
 }
-.part1 input{
-padding-right: 400px;
-margin-top: 20px;
-margin-bottom: 20px;
+
+.part1 input {
+    padding: 15px;
+    padding-right: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
 }
-.part2 UL{
+
+.part2 UL {
     display: flex;
     justify-content: space-between;
     list-style: none;
+    padding: 20px;
     /* background-color: whitesmoke; */
+}
+
+#img1 {
+    padding-left: 50px;
+}
+
+.icon1 {
+    margin-top: 35px;
+    margin-left: -185px;
+    font-size: 25px;
+}
+
+.icon2 {
+    margin-top: 35px;
+    font-size: 25px;
+    /* margin-left: -200px; */
+}
+
+.icon3 {
+    margin-top: 35px;
+    font-size: 25px;
+    /* margin-left: -200px; */
+}
+
+#check{
+    display: none;
+}
+#checkbtn{
+    display: none;
+    font-size: 50px;
+    margin-top: 20px;
+}
+#check:checked ~ .part1 ul{
+    right: 0;
+}
+@media(max-width: 800px){
+    .part1 ul {
+        flex-direction: column;
+        /* display: block; */
+    /* text-align: center; */
+    position: fixed;
+    top: 78px;
+    right: 100%;
+    width: 50%;
+    height: 100vh;
+    background-color: wheat;
+    }
+    .part1 li{
+        font-size: 30px;
+        display: flex;
+        gap: 10px;
+        
+    }
+    .part1 br{
+        display: none;
+    }
+    #input1{
+        /* display: none; */
+        /* font-size: 10px; */
+        position: fixed;
+        /* top: 65px; */
+        left: 115px;
+        size: 10px;
+        padding-right: 330px;
+        margin-left: 50px;
+    }
+    #img1{
+        /* position: fixed; */
+        /* left: -70px; */
+        margin-left: -130px;
+    }
+    .icon1 {
+        display: none;
+        font-size: 0px;
+    }
+    .icon2 {
+        display: none;
+        font-size: 0px;
+    }
+    .icon3 {
+        display: none;
+        font-size: 0px;
+    }
+    #checkbtn{
+        display: block;
+        /* position: fixed; */
+        /* top: 10px; */
+        margin-right: -70px;
+    }
+    .part6{
+        display: none;
+    }
+    .part9{
+        flex-direction: column;
+    }
+    .part10{
+        flex-direction: column;
+    }
+    .part13{
+        flex-direction: column;
+    }
+    .part14 img{
+        display: none;
+        /* flex-direction: column; */
+    }
+}
+
+.part3{
+    height: 578px;
+    background-image: url(../images/task1.jpj.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slider{
+    0%{background-image: url(https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw1cb2cf12/homepage/HeroBanner/rwj-desktop.jpg);}
+    20%{background-image: url(https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw14fc94ce/homepage/HeroBanner/rivaah-tt-launch-desktop.jpg);}
+    40%{background-image: url(https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw5b300d46/homepage/HeroBanner/into-eternity-offer-desktop.jpg);}
+    60%{background-image: url(https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw53ca8251/homepage/HeroBanner/unbound-desktop.jpg);}
+    80%{background-image: url(https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw258ad774/homepage/HeroBanner/engagement-rings-desktop.jpg);}
+    100%{background-image: url(https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwb1b2001d/homepage/HeroBanner/gifting-banner-desktop.jpg);}
+}
+.part3a{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-top: 30px;
+    color: brown;
+    font-size: 40px;
+}
+.part3b{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.part3c{
+    display: flex;
+    justify-content: space-around;
+}
+.part4{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-top: 30px;
+    color: brown;
+    font-size: 40px;
+}
+.part5{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.part6{
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-top: 120px;
+}
+.part6 img{
+    border-radius: 20px;
+}
+.part6 video{
+    border-radius: 20px;
+}
+#part6a{
+    margin-left: 300px;
+    /* margin-top: -10px; */
+}
+#part6b{
+    margin-left: 400px;
+    margin-top: -260px;
+}
+#part6c{
+    margin-left: 900px;
+    margin-top: -245px;
+}
+#part6d{
+    margin-left: 750px;
+    margin-top: -260px;
+}
+#part6e{
+    margin-left: 550px;
+    margin-top: -350px;
+}
+.part7{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-top: 30px;
+    color: brown;
+    font-size: 40px;
+}
+.part8{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+
+.part9{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 40px;
+}
+#part9a1{
+    margin-left: 15px;
+    color: brown;
+    font-size: 22px;
+}
+#part9a2{
+    margin-left: 30px;
+}
+.part10{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 40px;
+}
+.part11{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-top: 30px;
+    color: brown;
+    font-size: 40px;
+}
+.part12{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.part13{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 40px;
+}
+
+#part13a1{
+    margin-left: 150px;
+    color: brown;
+    font-size: 22px;
+}
+#part9a:hover{
+/* background-color: aqua;
+margin-left: 60px; */
+/* background-color:  rgb(244, 37, 244);
+text-shadow: 2px 2px 2px green;
+color: aliceblue; */
+}
+#part13a2{
+    margin-left: 160px;
+}
+.part14{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.part14 img{
+    border-radius: 30px;
+    padding: 20px;
+}
+.part15{
+    display: flex;
+    justify-content: space-around;
+    background-color: wheat;
+    margin-top: 20px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+.part15a ul{
+    list-style: none;
+}
+.part15a li{
+    padding: 15px;
+}
+.part15b ul{
+    list-style: none;
+}
+.part15b li{
+    padding: 15px;
+}
+.part15c ul{
+    list-style: none;
+}
+.part15c li{
+    padding: 15px;
+}
+.part15d ul{
+    list-style: none;
+}
+.part15 h1{
+    color: brown;
+    padding: 5px;
+}
+.part16{
+    display: flex;
+    justify-content:space-around;
 }
