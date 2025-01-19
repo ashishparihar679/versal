@@ -11,7 +11,7 @@
 .part1 {
     display: flex;
     justify-content: space-around;
-    background-color: wheat;
+    background-color: rgb(243, 227, 240);
 
 }
 
@@ -86,15 +86,15 @@
     position: fixed;
     top: 78px;
     right: 100%;
-    width: 50%;
-    height: 100vh;
-    background-color: wheat;
+    width: 40%;
+    height: 100vh; 
+    background-color: rgb(243, 227, 240);
     }
     .part1 li{
         font-size: 30px;
         display: flex;
         gap: 10px;
-        
+
     }
     .part1 br{
         display: none;
@@ -138,6 +138,7 @@
     .part6{
         display: none;
     }
+  
     .part9{
         /* flex-direction: column; */
         flex-wrap: wrap;
@@ -175,6 +176,18 @@ text-align: center;
     }
     .part3{
         /* display: none; */
+    }
+    .part18a{
+        height: 300px;
+    }
+    .part18b{
+        height: 310px;
+    }
+    .part19{
+        flex-direction: column;
+    }
+    .part20{
+        flex-direction: column;
     }
 }
 
@@ -314,13 +327,7 @@ text-align: center;
     color: brown;
     font-size: 22px;
 }
-#part9a:hover{
-/* background-color: aqua;
-margin-left: 60px; */
-/* background-color:  rgb(244, 37, 244);
-text-shadow: 2px 2px 2px green;
-color: aliceblue; */
-}
+
 #part13a2{
     margin-left: 160px;
 }
@@ -371,3 +378,176 @@ color: aliceblue; */
     display: flex;
     justify-content:space-around;
 }
+.part16{
+    margin-top: 35px;
+    text-align: center;
+}
+.part16a{
+    text-align: center;
+}
+.part17{
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 5px;
+
+    border: 2px solid rgb(223, 219, 219);
+    border-radius: 30px;
+}
+.part17a,.part17b,.part17c {
+    border-radius: 30px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.part17a:hover,.part17b:hover,.part17c:hover {
+    background-color: rgb(164, 36, 83);
+    color: whitesmoke;
+}
+.part18{
+    margin-top: 25px;
+    text-align: center;
+}
+.part18b{
+    border-radius: 30px;
+    
+}
+.part18c,.part18d{
+    /* margin-right: 100px; */
+}
+.part18c{
+    position: absolute;
+    margin-top: -91px;
+    right: 408px;
+    padding: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(205, 77, 119);
+}
+.part18d{
+    position: absolute;
+    margin-top: -113px;
+    right: 210px;
+    padding: 12px;
+    padding-right: 26px;
+    padding-left: 26px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(205, 77, 119);
+}
+.part18c:hover{
+background-color: rgb(205, 77, 119);
+color: white;
+}
+.part18d:hover{
+    background-color: rgb(205, 77, 119);
+    color: white;
+    }
+    .part19{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .part19a{
+        /* color: rgb(14, 6, 6); */
+        padding: 50px;
+        padding-right: 300px;
+        border-radius: 5px;
+        border: 2px solid rebeccapurple;
+        background-image: url(https://i.pinimg.com/236x/f5/9e/f8/f59ef87fd24c277002b4756f64388d83.jpg);
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+    }
+    .part19a button{
+        background-color: white;
+        font-size: 20px;
+        padding: 3px;
+        border-radius: 2px;
+    }
+    .part19a button:hover{
+padding-right: 260px;
+    }
+    .part19b{
+        padding: 50px;
+        padding-right: 300px;
+        border-radius: 5px;
+        border: 2px solid rebeccapurple;
+        background-image: url(https://www.shutterstock.com/shutterstock/photos/1722938428/display_1500/stock-photo-traditional-indian-gold-bangles-also-known-as-sone-ka-kada-or-sone-ka-kangan-1722938428.jpg);
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+    }
+    .part19b button{
+        background-color: white;
+        font-size: 20px;
+        padding: 3px;
+        border-radius: 2px;
+    }
+    .part19b button:hover{
+padding-right: 260px;
+    }
+    .part20{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .part20a{
+        color: white;
+        padding: 30px;
+        padding-right: 200px;
+        border-radius: 5px;
+        border: 2px solid rebeccapurple;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS7YlXnFL3dgsbFsS3X2hHjw7TqHaPOtWYnQ&s);
+    
+    }
+    .part20a button{
+        background-color: white;
+        font-size: 20px;
+        padding: 3px;
+        border-radius: 2px;
+    }
+    .part20a button:hover{
+padding-right: 80px;
+    }
+    .part20b{
+        color: white;
+        padding: 30px;
+        padding-right: 200px;
+        border-radius: 5px;
+        border: 2px solid rebeccapurple;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNWNKjv-suIAm2-sE9y3F51_WF-d4jbxac2g&s);
+    
+    }
+    .part20b button{
+        background-color: white;
+        font-size: 20px;
+        padding: 3px;
+        border-radius: 2px;
+    }
+    .part20b button:hover{
+padding-right: 80px;
+    }
+    .part20c{
+        color: white;
+        padding: 30px;
+        padding-right: 200px;
+        border-radius: 5px;
+        border: 2px solid rebeccapurple;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvISQC2W1S6o8GucxHkQ06SJDVrS1PBVTXKA&s);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    }
+    .part20c button{
+        background-color: white;
+        font-size: 20px;
+        padding: 3px;
+        border-radius: 2px;
+    }
+    .part20c button:hover{
+padding-right: 80px;
+    }
