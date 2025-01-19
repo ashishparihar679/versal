@@ -78,7 +78,7 @@
 #check:checked ~ .part1 ul{
     right: 0;
 }
-@media(max-width: 600px){
+@media(max-width: 400px){
     .part1 ul {
         flex-direction: column;
         /* display: block; */
@@ -106,8 +106,8 @@
         /* top: 65px; */
         left: 115px;
         size: 10px;
-        padding-right: 190px;
-        margin-left: 30px;
+        padding-right: 60px;
+        margin-left: -15px;
     }
     #img1{
         /* position: fixed; */
@@ -139,11 +139,12 @@
         display: none;
     }
     .part9{
-        flex-direction: column;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
         text-align: center;
     }
     .part10{
-        flex-direction: column;
+        flex-wrap: wrap;
         text-align: center;
     }
     .part13{
@@ -169,7 +170,7 @@
         width: 440px;
     }
     .part15{
-flex-direction: column;
+        flex-wrap: wrap;
 text-align: center;
     }
     .part3{
