@@ -135,6 +135,9 @@
 
         
     }
+    .part4{
+        text-align: center;
+    }
     .part6{
         display: none;
     }
@@ -171,7 +174,8 @@
         width: 440px;
     }
     .part15{
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
 text-align: center;
     }
     .part3{
@@ -188,6 +192,14 @@ text-align: center;
     }
     .part20{
         flex-direction: column;
+    }
+    .part18c{
+        /* display: none; */
+        margin-right: -220px;
+    }
+    .part18d{
+        /* display: none; */
+        margin-right: -200px;
     }
 }
 
