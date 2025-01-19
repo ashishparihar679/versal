@@ -78,7 +78,7 @@
 #check:checked ~ .part1 ul{
     right: 0;
 }
-@media(max-width: 400px){
+@media(max-width: 450px){
     .part1 ul {
         flex-direction: column;
         /* display: block; */
