@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
 }
 .part1 {
     position: sticky;
@@ -16,6 +16,7 @@
 }
 
 .part1 ul {
+    font-family: "Abril Fatface", serif;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -38,6 +39,7 @@
 }
 
 .part2 UL {
+    font-family: "Playfair Display", serif;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -243,6 +245,8 @@ text-align: center;
     100%{background-image: url(https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwb1b2001d/homepage/HeroBanner/gifting-banner-desktop.jpg);}
 }
 .part3a{
+    
+  font-family: "Anton SC", serif;
     display: flex;
     justify-content: center;
     text-transform: capitalize;
@@ -263,6 +267,7 @@ text-align: center;
     border: 2px solid rgb(212, 211, 213);
     }
 .part4{
+    font-family: "Anton SC", serif;
     display: flex;
     justify-content: center;
     text-transform: capitalize;
@@ -311,6 +316,7 @@ text-align: center;
 }
 
 .part7{
+    font-family: "Anton SC", serif;
     display: flex;
     justify-content: center;
     text-transform: capitalize;
@@ -347,6 +353,7 @@ text-align: center;
     padding-top: 40px;
 }
 .part11{
+    font-family: "Anton SC", serif;
     display: flex;
     justify-content: center;
     text-transform: capitalize;
